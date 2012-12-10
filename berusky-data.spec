@@ -44,3 +44,53 @@ cp -p -R Levels   %{buildroot}%{_gamesdatadir}/%{oname}
 %doc README COPYING
 %{_gamesdatadir}/%{oname}/*
 
+
+
+%changelog
+* Tue May 01 2012 Andrey Bondrov <abondrov@mandriva.org> 1.4-1
++ Revision: 794784
+- imported package berusky-data
+
+
+* Tue May 01 2012 Andrey Bondrov <abondrov@mandriva.org> 1.4-1mdv2010.2
+- Import from Mageia
+- New version 1.4
+
+* Tue Jan 31 2012 kamil <kamil> 1.0-11.mga2
++ Revision: 203632
+- don't own berusky-data_directory
+- don't install berusky.ini from this package, it's in berusky
+
+* Mon Jan 30 2012 kamil <kamil> 1.0-10.mga2
++ Revision: 203341
+- adapt .spec for Mageia
+- imported package berusky-data
+
+
+* Thu Jan 12 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-9
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
+
+* Mon Feb 07 2011 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-8
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_15_Mass_Rebuild
+
+* Thu Nov 19 2009 Martin Stransky <stransky@redhat.com> 1.0-7
+- fixed licence & #473628
+
+* Fri Jul 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-6
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
+* Mon Feb 23 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
+
+* Mon Jul 14 2008 Tom "spot" Callaway <tcallawa@redhat.com> 1.0-4
+- fix license tag
+
+* Tue May 8 2007 Martin Stransky <stransky@redhat.com> 1.0-3
+- added build section
+
+* Mon Apr 23 2007 Martin Stransky <stransky@redhat.com> 1.0-2
+- fixes from #237416
+
+* Fri Apr 20 2007 Martin Stransky <stransky@redhat.com> 1.0-1
+- initial build
+
