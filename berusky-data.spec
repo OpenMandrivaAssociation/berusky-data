@@ -2,7 +2,7 @@
 
 Name:		%{oname}-data
 Version:	1.4
-Release:	%mkrel 1
+Release:	2
 Summary:	Game data files for Berusky
 License:	GPLv2+
 Group:		Games/Puzzles
