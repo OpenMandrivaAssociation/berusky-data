@@ -1,8 +1,8 @@
 %define oname berusky
 
 Name:		%{oname}-data
-Version:	1.4
-Release:	2
+Version:	1.7
+Release:	1
 Summary:	Game data files for Berusky
 License:	GPLv2+
 Group:		Games/Puzzles
