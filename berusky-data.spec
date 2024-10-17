@@ -6,7 +6,7 @@ Release:	1
 Summary:	Game data files for Berusky
 License:	GPLv2+
 Group:		Games/Puzzles
-URL:		http://www.anakreon.cz/
+URL:		https://www.anakreon.cz/
 Source0:	http://anakreon.cz/download/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 
